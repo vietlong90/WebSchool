@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(node -e \"const a = require\\('/Users/longtran/Documents/Project/WebSchool/node_modules/@primeuix/themes/dist/aura/index.mjs'\\); console.log\\(typeof a\\)\")",
+      "Bash(node --input-type=module)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); [print\\(k,':',v\\) for k,v in d.get\\('exports',{}\\).items\\(\\) if 'aura' in k.lower\\(\\)]\")",
+      "Bash(python3 -c ' *)",
+      "Bash(npm run *)"
+    ]
+  }
+}
